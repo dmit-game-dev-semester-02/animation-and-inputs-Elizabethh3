@@ -7,11 +7,17 @@ namespace assignment01_animation_and_inputs;
 
 public class InputAndAnimationGame : Game
 {
+    private const int _windowWidth = 1000;
+    private const int _windowHeight = 535;
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
-    private Texture2D _background, _tree;
+    private Texture2D _background, _flowers;
     private CelAnimationSequence _sequence01, _sequence02;
     private CelAnimationPlayer _animation01, _animation02;
+    private float _flowersX = 705;
+    private float _flowersY = 95;
+    
+
     public InputAndAnimationGame()
     {
         _graphics = new GraphicsDeviceManager(this);
@@ -21,7 +27,9 @@ public class InputAndAnimationGame : Game
 
     protected override void Initialize()
     {
-        // TODO: Add your initialization logic here
+        _graphics.PreferredBackBufferWidth = _windowWidth;
+        _graphics.PreferredBackBufferHeight = _windowHeight;
+        _graphics.ApplyChanges();
 
         base.Initialize();
     }
@@ -29,16 +37,12 @@ public class InputAndAnimationGame : Game
     protected override void LoadContent()
     {
         _spriteBatch = new SpriteBatch(GraphicsDevice);
-
-        // TODO: use this.Content to load your game content here
+        _background = Content.Load<Texture2D>("background");
+        _flowers = Content.Load<Texture2D>("flowers");
     }
 
     protected override void Update(GameTime gameTime)
     {
-        if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
-            Exit();
-
-        // TODO: Add your update logic here
 
         base.Update(gameTime);
     }
@@ -47,7 +51,10 @@ public class InputAndAnimationGame : Game
     {
         GraphicsDevice.Clear(Color.CornflowerBlue);
 
-        // TODO: Add your drawing code here
+        _spriteBatch.Begin();
+        _spriteBatch.Draw(_background, Vector2.Zero, Color.White);
+        _spriteBatch.Draw(_flowers, new Vector2(_flowersX, _flowersY), Color.White);
+        _spriteBatch.End();
 
         base.Draw(gameTime);
     }
