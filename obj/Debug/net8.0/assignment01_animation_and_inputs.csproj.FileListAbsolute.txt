@@ -26,3 +26,5 @@ C:\Users\crazy\source\repos\Github\2025-Jan-DMIT1514-01-assignments\animation-an
 C:\Users\crazy\source\repos\Github\2025-Jan-DMIT1514-01-assignments\animation-and-inputs-Elizabethh3\obj\Debug\net8.0\ref\assignment01_animation_and_inputs.dll
 C:\Users\crazy\source\repos\Github\2025-Jan-DMIT1514-01-assignments\animation-and-inputs-Elizabethh3\bin\Debug\net8.0\Content\background.xnb
 C:\Users\crazy\source\repos\Github\2025-Jan-DMIT1514-01-assignments\animation-and-inputs-Elizabethh3\bin\Debug\net8.0\Content\flowers.xnb
+C:\Users\crazy\source\repos\Github\2025-Jan-DMIT1514-01-assignments\animation-and-inputs-Elizabethh3\bin\Debug\net8.0\Content\Cartoon_cat.xnb
+C:\Users\crazy\source\repos\Github\2025-Jan-DMIT1514-01-assignments\animation-and-inputs-Elizabethh3\bin\Debug\net8.0\Content\Cartoon_mouse.xnb

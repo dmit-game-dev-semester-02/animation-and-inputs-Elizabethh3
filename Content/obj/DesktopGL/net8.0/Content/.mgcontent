@@ -5,9 +5,13 @@
   <Config />
   <SourceFiles>
     <File>C:/Users/crazy/source/repos/Github/2025-Jan-DMIT1514-01-assignments/animation-and-inputs-Elizabethh3/Content/background.png</File>
+    <File>C:/Users/crazy/source/repos/Github/2025-Jan-DMIT1514-01-assignments/animation-and-inputs-Elizabethh3/Content/cartoon_cat.png</File>
+    <File>C:/Users/crazy/source/repos/Github/2025-Jan-DMIT1514-01-assignments/animation-and-inputs-Elizabethh3/Content/Cartoon_mouse.png</File>
     <File>C:/Users/crazy/source/repos/Github/2025-Jan-DMIT1514-01-assignments/animation-and-inputs-Elizabethh3/Content/flowers.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>
